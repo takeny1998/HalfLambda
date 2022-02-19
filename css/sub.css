@@ -1,0 +1,81 @@
+/*********************************************
+*                  logo                      *
+*********************************************/
+.logo img { position: absolute; width: 100px; height: auto; top: 0; padding: 30px;}
+
+/*********************************************
+*                  slick css                 *
+*********************************************/
+.slide-section { margin: 0 auto; width: 70%; overflow: hidden;}
+.track-inner { margin: 0 auto; width: 72%; }
+.slick-track { height: 500px; margin-right: 0; }
+.slick-slider { width: 100%; }
+.slick-slide { border: 1px solid #ececec }
+.slick-slide img{    
+	display: block;
+	width: calc(100vw/3);
+	height: auto;
+	margin: 0 auto;  
+}
+.slider-nav .slick-slide{
+	display: block;
+	width: calc(100vw/8);
+	height: calc(100vw/8);
+}
+.slider-nav .slick-slide img {
+	background-position: center center; 
+	background-size: cover;
+	width: calc(100vw/12);
+	height: calc(100vw/12);
+	margin: 50px auto;
+}
+ 
+.slick-dots {
+    display: flex;
+    justify-content: center;    
+    margin: 0;
+    padding: 1rem 0 2rem 0;    
+    list-style-type: none;  
+    top: 400px !important;
+    left: 600px !important;
+}
+.slick-dots li { margin: 0 0.25rem;}   
+.slick-dots button {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	padding: 0;         
+	border: 1px solid black;
+	border-radius: 100%;
+	background-color: rgba(255,255,255, 0.5);           
+	text-indent: -9999px;
+	cursor: pointer;
+} 
+.slick-dots li.slick-active button {background-color: black;}
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    position: absolute;
+    bottom: 20px;
+    color: #111111;;
+    border: 0;
+    background: none;
+    z-index: 1;
+    top: 20px;
+    cursor: pointer;
+}
+.slick-prev {
+	background: url('../../images/leftArrow-off.svg') no-repeat center center;
+    left: -60px;
+	width: 4%;
+	height: 100%;
+}
+.slick-next {
+	background: url('../../images/rightArrow-off.svg') no-repeat center center;
+    right: -60px;
+    text-align: right;
+	width: 4%;
+	height: 100%;
+}
+
+.card-header{ padding: 20% 0; border: 1px solid #ececec;}

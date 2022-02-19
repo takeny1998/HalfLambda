@@ -66,6 +66,8 @@ CSS option
 *******************/
 .text-center{text-align: center;}
 
+.text-white{color: white;}
+
 
 
 @media (max-width: 1500px) {
