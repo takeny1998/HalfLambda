@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/jquery.fullpage.css">
     <link rel="stylesheet" href="/css/slick.css">
     <script src="/js/jquery.min-1.11.2.js"></script>
-	<script src="/js/jquery.fullpage.js"></script>
+	  <script src="/js/jquery.fullpage.js"></script>
     <script src="/js/slick.js"></script>
     <script src="/js/slick.min.js"></script>
 </head>
@@ -34,28 +34,43 @@
             <div class="row product-card">
               <div class="slider-for-productIntro">
                 <div class="text-center text-white">
-                  <div class="text-center card-header">
-                    <span>Project A</span>
+                  <div class="card col-12">
+                    <div class="text-center card-header col-12">
+                      <span>Project A</span>
+                    </div>
+                    <div class="col-12 card-img">
+                      <img  src="/images/half-lambda-logo.png" alt="" />
+                    </div>
                   </div>
-                  <img src="/images/half-lambda-logo.png" alt="" />
                 </div>
                 <div class="text-center text-white">
-                  <div class="text-center card-header">
-                    <span>Project B</span>
+                  <div class="card">
+                    <div class="text-center card-header">
+                      <span>Project B</span>
+                    </div>
+                    <div class="col-12 card-img">
+                      <img  src="/images/half-lambda-logo.png" alt="" />
+                    </div>
                   </div>
-                  <img src="/images/half-lambda-logo.png" alt="" />
                 </div>
                 <div class="text-center text-white">
-                  <div class="text-center card-header">
-                    <span>Project C</span>
+                  <div class="card">
+                    <div class="text-center card-header">
+                      <span>Project C</span>
+                    </div>
+                    <div class="col-12 card-img">
+                      <img  src="/images/half-lambda-logo.png" alt="" />
+                    </div>
                   </div>
-                  <img src="/images/half-lambda-logo.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
     </div>
     <div class="section third-section">
+      <div class="logo">
+        <img src="/images/half-lambda-logo.png" />
+      </div>
     </div>
 </div>
 </body>
@@ -63,7 +78,7 @@
     $(document).ready(function() {
         $('#fullpage').fullpage({
             anchors: ['firstPage', 'secondPage', '3rdPage'],
-            sectionsColor: ['#111111', '#111111', '#7E8F7C'],
+            sectionsColor: ['#111111', '#111111', '#111111'],
             navigation: true,
             navigationPosition: 'right',
             navigationTooltips: ['First page', 'Second page', 'Third and last page'],

@@ -10,11 +10,10 @@
 .track-inner { margin: 0 auto; width: 72%; }
 .slick-track { height: 500px; margin-right: 0; }
 .slick-slider { width: 100%; }
-.slick-slide { border: 1px solid #ececec }
 .slick-slide img{    
 	display: block;
-	width: calc(100vw/3);
-	height: auto;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;  
 }
 .slider-nav .slick-slide{
@@ -78,4 +77,6 @@
 	height: 100%;
 }
 
-.card-header{ padding: 20% 0; border: 1px solid #ececec;}
+.card { height: 99%; margin: 0 15%; border: 1px solid #ececec; }
+.card-header{ height: 33%; border: 1px solid #ececec;}
+.card-img { height: 66%; }
